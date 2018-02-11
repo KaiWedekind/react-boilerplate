@@ -11,6 +11,9 @@
 1. Run `npm install` to install dependencies.
 1. Run `npm start` to see the example app at `http://localhost:3000`.
 
+## GH-Page
+[https://kaiwedekind.github.io/react-boilerplate/](https://kaiwedekind.github.io/react-boilerplate/)
+
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2017 Kai Wedekind. For more information see `LICENSE.md`.
