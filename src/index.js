@@ -1,11 +1,12 @@
-import React        from 'react';
-import { render }   from 'react-dom';
-import './stylesheets/styles.scss';
+import React from 'react';
+import { render } from 'react-dom';
+import 'normalize.css';
+import './styles.scss';
 
 render(
     <div>
-        <header id="title">React Boilerplate</header>
-        <label id="author">by Kai Wedekind</label>
+        <header className="app__title">React Boilerplate</header>
+        <label className="app__author">by Kai Wedekind</label>
     </div>,
     document.querySelector('#app')
 )

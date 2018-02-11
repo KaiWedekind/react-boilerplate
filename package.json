@@ -1,5 +1,5 @@
 {
-  "name": "react-essentials",
+  "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,26 +7,26 @@
     "start": "webpack-dev-server --hot",
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "babel ./src/index.js --out-file ./dist/bundle.js"
   },
-  "author": "Kai Wedekind",
+  "author": "Kai Wedekind <wedekind.kai@googlemail.com> (https://www.kaiwedekind.com/)",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer-loader": "^3.2.0",
-    "babel-cli": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.1",
-    "json-loader": "^0.5.4",
-    "node-sass": "^4.5.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.17.0",
-    "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.5"
+    "autoprefixer-loader": "3.2.0",
+    "babel-cli": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.9",
+    "json-loader": "0.5.7",
+    "node-sass": "4.7.2",
+    "normalize.css": "8.0.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.20.1",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1"
   },
   "dependencies": {}
 }
